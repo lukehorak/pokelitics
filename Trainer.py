@@ -8,6 +8,7 @@ class pokemon:
         self.alive = True
         self.kills = 0
         self.used = False
+        self.damage_done = 0
 
     def __str__(self):
         return self.toJSON()

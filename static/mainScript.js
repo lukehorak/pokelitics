@@ -39,8 +39,9 @@ function addToPage(pLite) {
     var headerText = document.createTextNode(pLite.name + " Summary:");
     headerTag.appendChild(headerText);
     var summaryTag = document.createElement("PRE");
-    summaryTag.setAttribute('data-src', "{{ url_for('static',filename='prism.js') }}");
-    summaryTag.className += "language-json";
+    //summaryTag.setAttribute('data-src', "{{ url_for('static',filename='prism.js') }}");
+    //summaryTag.className += "language-json";
+    summaryTag.className += "prettyprint";
     var code = document.createElement("CODE");
     code.className += "language-json";
     var summaryText = document.createTextNode(JSON.stringify(pLite.team, null, 4));

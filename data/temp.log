@@ -1,7 +1,7 @@
-|j|☆LVGoldenOmanytes
-|j|☆crimsonflames
-|player|p1|LVGoldenOmanytes|153
-|player|p2|crimsonflames|2
+|j|☆leahalcohol
+|j|☆Trishul105
+|player|p1|leahalcohol|184
+|player|p2|Trishul105|114
 |teamsize|p1|6
 |teamsize|p2|6
 |gametype|singles
@@ -9,317 +9,276 @@
 |tier|[Gen 7] Anything Goes
 |rule|Endless Battle Clause: Forcing endless battles is banned
 |clearpoke
-|poke|p1|Heatran, M|item
-|poke|p1|Garchomp, M|item
-|poke|p1|Magnezone|item
-|poke|p1|Hippowdon, M|item
-|poke|p1|Klefki, M|item
-|poke|p1|Steelix, F|item
-|poke|p2|Florges, F|item
-|poke|p2|Infernape, M|item
-|poke|p2|Lanturn, F|item
-|poke|p2|Hoopa|item
-|poke|p2|Gogoat, M|item
-|poke|p2|Toxapex, M|item
+|poke|p1|Silvally-*|item
+|poke|p1|Diancie|item
+|poke|p1|Jirachi|item
+|poke|p1|Kartana|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Dragalge, F|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Swampert, M|item
+|poke|p2|Pelipper, F|item
+|poke|p2|Escavalier, M|item
+|poke|p2|Noivern, F|item
+|poke|p2|Omastar, F|item
 |rule|HP Percentage Mod: HP is shown in percentages
 |teampreview
-|c|☆crimsonflames|do we wait LOL
+|c|☆leahalcohol|wanna wait a couple minutes for people to tune in?
+|c|☆Trishul105|gl
+|c|☆Trishul105|sure we can wait
+|j| sexypedo_101
+|c| sexypedo_101|GL buttholes
+|c|☆Trishul105|start in 2 mins
+|c|☆Trishul105|or want to get going?
+|c|☆leahalcohol|sure we can get going if you'd prefer!
+|c|☆leahalcohol|gimme one sec to get my tabs sorted out
+|c|☆Trishul105|no worrys
+|j| calder27
+|j| mchay071
 |
 |start
-|switch|p1a: FinlandIsntReal|Klefki, M, shiny|100\/100
-|switch|p2a: Toxapex|Toxapex, M|100\/100
+|switch|p1a: Jirachi|Jirachi, shiny|100\/100
+|switch|p2a: Moist|Pelipper, F|100\/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Moist
 |turn|1
+|c|☆leahalcohol|"moist"
+|c|☆leahalcohol|why
+|c|☆Trishul105|most ladys I know hate the name XD
 |
-|move|p1a: FinlandIsntReal|Reflect|p1a: FinlandIsntReal
-|-sidestart|p1: LVGoldenOmanytes|Reflect
-|move|p2a: Toxapex|Toxic Spikes|p1a: FinlandIsntReal
-|-sidestart|p1: LVGoldenOmanytes|move: Toxic Spikes
+|move|p1a: Jirachi|Thunder|p2a: Moist
+|-supereffective|p2a: Moist
+|-damage|p2a: Moist|0 fnt
+|faint|p2a: Moist
 |
+|-weather|RainDance|[upkeep]
 |upkeep
+|c|☆Trishul105|oof
+|
+|switch|p2a: Papa McDavid|Swampert, M|100\/100
 |turn|2
+|c|☆leahalcohol|a sneaky tactic, but not sneaky enough
 |
-|move|p1a: FinlandIsntReal|Spikes|p2a: Toxapex
-|-sidestart|p2: crimsonflames|Spikes
-|move|p2a: Toxapex|Toxic Spikes|p1a: FinlandIsntReal
-|-sidestart|p1: LVGoldenOmanytes|move: Toxic Spikes
+|switch|p2a: LeBron|Escavalier, M|100\/100
+|move|p1a: Jirachi|Energy Ball|p2a: LeBron
+|-resisted|p2a: LeBron
+|-damage|p2a: LeBron|96\/100
+|-unboost|p2a: LeBron|spd|1
 |
+|-weather|RainDance|[upkeep]
 |upkeep
 |turn|3
 |
-|switch|p2a: Florges|Florges, F|100\/100
-|-damage|p2a: Florges|88\/100|[from] Spikes
-|move|p1a: FinlandIsntReal|Defog|p2a: Florges
-|-unboost|p2a: Florges|evasion|1
-|-sideend|p2: crimsonflames|Spikes|[from] move: Defog|[of] p2a: Florges
-|-sideend|p1: LVGoldenOmanytes|Toxic Spikes|[from] move: Defog|[of] p1a: FinlandIsntReal
+|switch|p1a: Hydreigon|Hydreigon, F|100\/100
+|move|p2a: LeBron|Knock Off|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|82\/100
+|-enditem|p1a: Hydreigon|Leftovers|[from] move: Knock Off|[of] p2a: LeBron
 |
-|-heal|p2a: Florges|94\/100|[from] item: Leftovers
+|-weather|RainDance|[upkeep]
 |upkeep
 |turn|4
 |
-|move|p1a: FinlandIsntReal|Spikes|p2a: Florges
-|-sidestart|p2: crimsonflames|Spikes
-|move|p2a: Florges|Grassy Terrain|p2a: Florges
-|-fieldstart|move: Grassy Terrain
+|move|p1a: Hydreigon|Flamethrower|p2a: LeBron
+|-supereffective|p2a: LeBron
+|-damage|p2a: LeBron|44\/100
+|move|p2a: LeBron|Megahorn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
 |
-|-heal|p2a: Florges|99\/100|[from] item: Leftovers
-|-heal|p2a: Florges|100\/100|[from] Grassy Terrain
+|-weather|RainDance|[upkeep]
 |upkeep
+|c|☆leahalcohol|NO
+|
+|switch|p1a: Silvally|Silvally-Electric, shiny|100\/100
 |turn|5
 |
-|switch|p2a: Gogoat|Gogoat, M|100\/100
-|-damage|p2a: Gogoat|88\/100|[from] Spikes
-|move|p1a: FinlandIsntReal|Spikes|p2a: Gogoat
-|-sidestart|p2: crimsonflames|Spikes
+|switch|p2a: Papa McDavid|Swampert, M|100\/100
+|move|p1a: Silvally|Multi-Attack|p2a: Papa McDavid
+|-immune|p2a: Papa McDavid|[msg]
 |
-|-heal|p2a: Gogoat|94\/100|[from] item: Leftovers
-|-heal|p2a: Gogoat|100\/100|[from] Grassy Terrain
+|-weather|RainDance|[upkeep]
 |upkeep
 |turn|6
 |
-|move|p1a: FinlandIsntReal|Spikes|p2a: Gogoat
-|-sidestart|p2: crimsonflames|Spikes
-|move|p2a: Gogoat|Bulk Up|p2a: Gogoat
-|-boost|p2a: Gogoat|atk|1
-|-boost|p2a: Gogoat|def|1
+|detailschange|p2a: Papa McDavid|Swampert-Mega, M
+|-mega|p2a: Papa McDavid|Swampert|Swampertite
+|move|p2a: Papa McDavid|Earthquake|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
 |
+|-weather|RainDance|[upkeep]
 |upkeep
+|c|☆leahalcohol|the disrespect
+|c|☆Trishul105|:-\/ I thought he looked cool
+|c|☆Trishul105|in yellow
+|
+|switch|p1a: Kartana|Kartana, shiny|100\/100
 |turn|7
+|c|☆Trishul105|Papa carry me
 |
-|move|p1a: FinlandIsntReal|Toxic|p2a: Gogoat
-|-status|p2a: Gogoat|tox
-|move|p2a: Gogoat|Earthquake|p1a: FinlandIsntReal
-|-supereffective|p1a: FinlandIsntReal
-|-damage|p1a: FinlandIsntReal|82\/100
+|switch|p2a: Elo Leah!?|Noivern, F|100\/100
+|-item|p1a: Kartana|Grassium Z|[from] ability: Frisk|[of] p2a: Elo Leah!?|[identify]
+|-zpower|p1a: Kartana
+|move|p1a: Kartana|Bloom Doom|p2a: Elo Leah!?|[zeffect]
+|-resisted|p2a: Elo Leah!?
+|-damage|p2a: Elo Leah!?|64\/100
 |
-|-heal|p1a: FinlandIsntReal|88\/100|[from] Grassy Terrain
-|-damage|p2a: Gogoat|94\/100 tox|[from] psn
+|-weather|RainDance|[upkeep]
 |upkeep
 |turn|8
-|c|☆crimsonflames|oh shit
-|c|☆crimsonflames|LOL
+|c|☆leahalcohol|I crey
+|c|☆leahalcohol|also digging the nickname
 |
-|switch|p1a: Hitler-Did-9\/11|Heatran, M|100\/100
-|-item|p1a: Hitler-Did-9\/11|Air Balloon
-|move|p2a: Gogoat|Horn Leech|p1a: Hitler-Did-9\/11
-|-resisted|p1a: Hitler-Did-9\/11
-|-damage|p1a: Hitler-Did-9\/11|95\/100
-|-heal|p2a: Gogoat|97\/100 tox|[from] drain|[of] p1a: Hitler-Did-9\/11
-|-enditem|p1a: Hitler-Did-9\/11|Air Balloon
+|switch|p1a: Diancie|Diancie, shiny|100\/100
+|move|p2a: Elo Leah!?|Flamethrower|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|95\/100
+|-status|p1a: Diancie|brn
 |
-|-heal|p1a: Hitler-Did-9\/11|100\/100|[from] Grassy Terrain
-|-heal|p2a: Gogoat|100\/100 tox|[from] item: Leftovers
-|-fieldend|move: Grassy Terrain
-|-damage|p2a: Gogoat|88\/100 tox|[from] psn
-|-sideend|p1: LVGoldenOmanytes|Reflect
+|-weather|none
+|-damage|p1a: Diancie|88\/100 brn|[from] brn
 |upkeep
 |turn|9
+|c|☆Trishul105|thanks :)
 |
-|move|p1a: Hitler-Did-9\/11|Stealth Rock|p2a: Gogoat
-|-sidestart|p2: crimsonflames|move: Stealth Rock
-|move|p2a: Gogoat|Earthquake|p1a: Hitler-Did-9\/11
-|-supereffective|p1a: Hitler-Did-9\/11
-|-damage|p1a: Hitler-Did-9\/11|0 fnt
-|faint|p1a: Hitler-Did-9\/11
+|switch|p2a: LeBron|Escavalier, M|44\/100
+|detailschange|p1a: Diancie|Diancie-Mega, shiny
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p1a: Diancie|Power Gem|p2a: LeBron
+|-damage|p2a: LeBron|14\/100
 |
-|-heal|p2a: Gogoat|94\/100 tox|[from] item: Leftovers
-|-damage|p2a: Gogoat|76\/100 tox|[from] psn
+|-damage|p1a: Diancie|82\/100 brn|[from] brn
 |upkeep
-|
-|switch|p1a: FinlandIsntReal|Klefki, M, shiny|88\/100
 |turn|10
 |
-|move|p1a: FinlandIsntReal|Reflect|p1a: FinlandIsntReal
-|-sidestart|p1: LVGoldenOmanytes|Reflect
-|move|p2a: Gogoat|Earthquake|p1a: FinlandIsntReal
-|-supereffective|p1a: FinlandIsntReal
-|-damage|p1a: FinlandIsntReal|47\/100
+|move|p1a: Diancie|Power Gem|p2a: LeBron
+|-damage|p2a: LeBron|0 fnt
+|faint|p2a: LeBron
 |
-|-heal|p2a: Gogoat|82\/100 tox|[from] item: Leftovers
-|-damage|p2a: Gogoat|57\/100 tox|[from] psn
+|-damage|p1a: Diancie|76\/100 brn|[from] brn
 |upkeep
+|
+|switch|p2a: Papa McDavid|Swampert-Mega, M|100\/100
 |turn|11
-|c|☆crimsonflames|i swear if u have recover
-|c|☆crimsonflames|nah
 |
-|switch|p1a: JKF-is-Alive|Hippowdon, M|100\/100
-|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: JKF-is-Alive
-|move|p2a: Gogoat|Earthquake|p1a: JKF-is-Alive
-|-damage|p1a: JKF-is-Alive|89\/100
+|switch|p1a: Dragalge|Dragalge, F|100\/100
+|move|p2a: Papa McDavid|Earthquake|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
 |
-|-weather|Sandstorm|[upkeep]
-|-damage|p2a: Gogoat|51\/100 tox|[from] Sandstorm
-|-heal|p2a: Gogoat|57\/100 tox|[from] item: Leftovers
-|-heal|p1a: JKF-is-Alive|95\/100|[from] item: Leftovers
-|-damage|p2a: Gogoat|26\/100 tox|[from] psn
 |upkeep
+|c|☆leahalcohol|F U C K
+|
+|switch|p1a: Kartana|Kartana, shiny|100\/100
 |turn|12
 |
-|move|p2a: Gogoat|Horn Leech|p1a: JKF-is-Alive
-|-supereffective|p1a: JKF-is-Alive
-|-damage|p1a: JKF-is-Alive|65\/100
-|-heal|p2a: Gogoat|42\/100 tox|[from] drain|[of] p1a: JKF-is-Alive
-|move|p1a: JKF-is-Alive|Whirlwind|p2a: Gogoat
-|drag|p2a: Florges|Florges, F|100\/100
-|-damage|p2a: Florges|75\/100|[from] Spikes
-|-damage|p2a: Florges|63\/100|[from] Stealth Rock
+|switch|p2a: Elo Leah!?|Noivern, F|64\/100
+|-item|p1a: Kartana|Grassium Z|[from] ability: Frisk|[of] p2a: Elo Leah!?|[identify]
+|move|p1a: Kartana|Leaf Blade|p2a: Elo Leah!?
+|-resisted|p2a: Elo Leah!?
+|-crit|p2a: Elo Leah!?
+|-damage|p2a: Elo Leah!?|36\/100
 |
-|-weather|Sandstorm|[upkeep]
-|-damage|p2a: Florges|57\/100|[from] Sandstorm
-|-heal|p2a: Florges|63\/100|[from] item: Leftovers
-|-heal|p1a: JKF-is-Alive|72\/100|[from] item: Leftovers
 |upkeep
 |turn|13
 |
-|move|p2a: Florges|Calm Mind|p2a: Florges
-|-boost|p2a: Florges|spa|1
-|-boost|p2a: Florges|spd|1
-|move|p1a: JKF-is-Alive|Slack Off|p1a: JKF-is-Alive
-|-heal|p1a: JKF-is-Alive|100\/100
+|switch|p1a: Jirachi|Jirachi, shiny|100\/100
+|move|p2a: Elo Leah!?|Flamethrower|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|58\/100
 |
-|-weather|Sandstorm|[upkeep]
-|-damage|p2a: Florges|57\/100|[from] Sandstorm
-|-heal|p2a: Florges|63\/100|[from] item: Leftovers
 |upkeep
 |turn|14
 |
-|move|p2a: Florges|Wish|p2a: Florges
-|move|p1a: JKF-is-Alive|Whirlwind|p2a: Florges
-|drag|p2a: Hoopa|Hoopa|100\/100
-|-damage|p2a: Hoopa|76\/100|[from] Spikes
-|-damage|p2a: Hoopa|63\/100|[from] Stealth Rock
+|switch|p2a: Thor|Tapu Koko|100\/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Thor
+|move|p1a: Jirachi|Thunder|p2a: Thor
+|-resisted|p2a: Thor
+|-damage|p2a: Thor|59\/100
 |
-|-weather|Sandstorm|[upkeep]
-|-damage|p2a: Hoopa|57\/100|[from] Sandstorm
 |upkeep
 |turn|15
-|j| calder27
 |
-|switch|p1a: Chemtrails|Steelix, F, shiny|100\/100
-|move|p2a: Hoopa|Dark Pulse|p1a: Chemtrails
-|-damage|p1a: Chemtrails|62\/100
-|-damage|p2a: Hoopa|47\/100|[from] item: Life Orb
+|-zpower|p2a: Thor
+|move|p2a: Thor|Supersonic Skystrike|p1a: Jirachi|[zeffect]
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|29\/100
+|move|p1a: Jirachi|Energy Ball|p2a: Thor
+|-damage|p2a: Thor|10\/100
 |
-|-weather|none
-|-heal|p2a: Hoopa|100\/100|[from] move: Wish|[wisher] Florges
 |upkeep
 |turn|16
 |
-|detailschange|p1a: Chemtrails|Steelix-Mega, F, shiny
-|-mega|p1a: Chemtrails|Steelix|Steelixite
-|move|p2a: Hoopa|Shadow Ball|p1a: Chemtrails
-|-damage|p1a: Chemtrails|17\/100
-|-damage|p2a: Hoopa|91\/100|[from] item: Life Orb
-|move|p1a: Chemtrails|Heavy Slam|p2a: Hoopa
-|-damage|p2a: Hoopa|1\/100
+|switch|p1a: Kartana|Kartana, shiny|100\/100
+|move|p2a: Thor|Thunder|p1a: Kartana
+|-resisted|p1a: Kartana
+|-damage|p1a: Kartana|6\/100
 |
 |upkeep
 |turn|17
 |
-|switch|p1a: JKF-is-Alive|Hippowdon, M|100\/100
-|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: JKF-is-Alive
-|move|p2a: Hoopa|Shadow Ball|p1a: JKF-is-Alive
-|-crit|p1a: JKF-is-Alive
-|-damage|p1a: JKF-is-Alive|31\/100
-|-unboost|p1a: JKF-is-Alive|spd|1
-|-damage|p2a: Hoopa|0 fnt|[from] item: Life Orb
-|faint|p2a: Hoopa
+|move|p2a: Thor|U-turn|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|c|☆leahalcohol|this is not going muy bueno for me
 |
-|-weather|Sandstorm|[upkeep]
-|-heal|p1a: JKF-is-Alive|38\/100|[from] item: Leftovers
-|-sideend|p1: LVGoldenOmanytes|Reflect
+|switch|p2a: Dallas|Omastar, F, shiny|100\/100
+|
 |upkeep
 |
-|switch|p2a: Gogoat|Gogoat, M|42\/100 tox
-|-damage|p2a: Gogoat|30\/100 tox|[from] Stealth Rock
-|-damage|p2a: Gogoat|5\/100 tox|[from] Spikes
+|switch|p1a: Jirachi|Jirachi, shiny|29\/100
 |turn|18
 |
-|switch|p1a: FinlandIsntReal|Klefki, M, shiny|47\/100
-|move|p2a: Gogoat|Horn Leech|p1a: FinlandIsntReal
-|-resisted|p1a: FinlandIsntReal
-|-damage|p1a: FinlandIsntReal|33\/100
-|-heal|p2a: Gogoat|11\/100 tox|[from] drain|[of] p1a: FinlandIsntReal
+|move|p1a: Jirachi|Energy Ball|p2a: Dallas
+|-supereffective|p2a: Dallas
+|-enditem|p2a: Dallas|Focus Sash
+|-damage|p2a: Dallas|1\/100
+|-unboost|p2a: Dallas|spd|1
+|move|p2a: Dallas|Shell Smash|p2a: Dallas
+|-unboost|p2a: Dallas|def|1
+|-unboost|p2a: Dallas|spd|1
+|-boost|p2a: Dallas|atk|2
+|-boost|p2a: Dallas|spa|2
+|-boost|p2a: Dallas|spe|2
 |
-|-weather|Sandstorm|[upkeep]
-|-damage|p2a: Gogoat|5\/100 tox|[from] Sandstorm
-|-heal|p2a: Gogoat|11\/100 tox|[from] item: Leftovers
-|-damage|p2a: Gogoat|5\/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
 |upkeep
 |turn|19
+|c|☆leahalcohol|THE SASH
+|c|☆leahalcohol|NO
+|c|☆Trishul105|Dallas is always coming thru for me
+|c|☆Trishul105|she's a beaut
 |
-|move|p1a: FinlandIsntReal|Reflect|p1a: FinlandIsntReal
-|-sidestart|p1: LVGoldenOmanytes|Reflect
-|move|p2a: Gogoat|Earthquake|p1a: FinlandIsntReal
-|-supereffective|p1a: FinlandIsntReal
-|-crit|p1a: FinlandIsntReal
-|-damage|p1a: FinlandIsntReal|0 fnt
-|faint|p1a: FinlandIsntReal
+|move|p2a: Dallas|Earth Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
 |
-|-weather|Sandstorm|[upkeep]
-|-damage|p2a: Gogoat|0 fnt|[from] Sandstorm
 |upkeep
-|faint|p2a: Gogoat
-|c|☆LVGoldenOmanytes|them crits tho
 |
-|switch|p1a: NASA-Faked-Mars|Garchomp, M, shiny|100\/100
-|switch|p2a: Toxapex|Toxapex, M|100\/100
-|-damage|p2a: Toxapex|75\/100|[from] Spikes
-|-damage|p2a: Toxapex|63\/100|[from] Stealth Rock
+|switch|p1a: Diancie|Diancie-Mega, shiny|76\/100 brn
 |turn|20
+|c|☆Trishul105|wonder what else u have on that bad boy
+|c|☆Trishul105|jirachi
+|c|☆leahalcohol|r00d
 |
-|move|p1a: NASA-Faked-Mars|Earthquake|p2a: Toxapex
-|-supereffective|p2a: Toxapex
-|-damage|p2a: Toxapex|0 fnt
-|faint|p2a: Toxapex
+|move|p2a: Dallas|Surf|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
 |
-|-weather|Sandstorm|[upkeep]
-|upkeep
-|c|☆crimsonflames|damn
-|
-|switch|p2a: Florges|Florges, F|63\/100
-|-damage|p2a: Florges|50\/100|[from] Stealth Rock
-|-damage|p2a: Florges|25\/100|[from] Spikes
-|turn|21
-|
-|move|p1a: NASA-Faked-Mars|Earthquake|p2a: Florges
-|-damage|p2a: Florges|0 fnt
-|faint|p2a: Florges
-|
-|-weather|none
-|upkeep
-|c|☆LVGoldenOmanytes|ggwp
-|c|☆crimsonflames|fuck
-|c|☆crimsonflames|gg
-|
-|switch|p2a: Lanturn|Lanturn, F|100\/100
-|-damage|p2a: Lanturn|88\/100|[from] Stealth Rock
-|-damage|p2a: Lanturn|63\/100|[from] Spikes
-|turn|22
-|
-|move|p1a: NASA-Faked-Mars|Earthquake|p2a: Lanturn
-|-supereffective|p2a: Lanturn
-|-damage|p2a: Lanturn|0 fnt
-|faint|p2a: Lanturn
-|
-|upkeep
-|
-|switch|p2a: Infernape|Infernape, M|100\/100
-|-damage|p2a: Infernape|76\/100|[from] Spikes
-|-damage|p2a: Infernape|63\/100|[from] Stealth Rock
-|turn|23
-|
-|move|p2a: Infernape|Mach Punch|p1a: NASA-Faked-Mars
-|-damage|p1a: NASA-Faked-Mars|91\/100
-|-damage|p2a: Infernape|51\/100|[from] ability: Rough Skin|[of] p1a: NASA-Faked-Mars
-|move|p1a: NASA-Faked-Mars|Earthquake|p2a: Infernape
-|-supereffective|p2a: Infernape
-|-damage|p2a: Infernape|0 fnt
-|faint|p2a: Infernape
-|
-|win|LVGoldenOmanytes
-|c|☆crimsonflames|LMAO
-|c|☆LVGoldenOmanytes|klefki mvp
-|c|☆crimsonflames|ya
-|c|☆crimsonflames|real shit
-|l|☆crimsonflames
+|win|Trishul105
+|c|☆leahalcohol|ggwp
+|c|☆Trishul105|u as well
+|l| mchay071
+|c|☆Trishul105|had me all strugllign without my rain man
+|c|☆leahalcohol|I've got the replay
+|c|☆leahalcohol|I was v much counting on him being out first haha
+|c|☆leahalcohol|but the escavalier threw me off
+|c|☆Trishul105|was smart
+|c|☆Trishul105|wp
+|c|☆leahalcohol|you too!!
+|c|☆Trishul105|and if u wanna scrim I'm always open to help :)
