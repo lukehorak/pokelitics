@@ -1,0 +1,15 @@
+
+h1, h3 {
+    color: #CBCBCB;
+    font-family: sans-serif;
+}
+
+.left {
+    float: left;
+    margin-left:22%;
+}
+
+.right {
+    float: right;
+    margin-right: 22%;
+}

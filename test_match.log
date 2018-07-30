@@ -1,0 +1,159 @@
+|j|☆Cheech Cyclist
+|j|☆LVGoldenOmanytes
+|player|p1|Cheech Cyclist|258
+|player|p2|LVGoldenOmanytes|12
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Slowbro, M|item
+|poke|p1|Azumarill, F|item
+|poke|p1|Azelf|item
+|poke|p1|Ditto|item
+|poke|p1|Stakataka|item
+|poke|p1|Slowking, M|
+|poke|p2|Klefki, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Girafarig, F|
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Slowbro|Slowbro, M|100\/100
+|switch|p2a: Major Key|Klefki, M, shiny|100\/100
+|turn|1
+|
+|detailschange|p1a: Slowbro|Slowbro-Mega, M
+|-mega|p1a: Slowbro|Slowbro|Slowbronite
+|move|p2a: Major Key|Light Screen|p2a: Major Key
+|-sidestart|p2: LVGoldenOmanytes|move: Light Screen
+|move|p1a: Slowbro|Scald|p2a: Major Key
+|-damage|p2a: Major Key|84\/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Magnets How Do The|Magnezone|100\/100
+|move|p1a: Slowbro|Ice Beam|p2a: Magnets How Do The
+|-resisted|p2a: Magnets How Do The
+|-damage|p2a: Magnets How Do The|90\/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Magnets How Do The|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+|
+|switch|p1a: Stakataka|Stakataka|100\/100
+|turn|4
+|
+|switch|p2a: Depression|Garchomp, M, shiny|100\/100
+|move|p1a: Stakataka|Rock Blast|p2a: Depression
+|-resisted|p2a: Depression
+|-damage|p2a: Depression|94\/100
+|-resisted|p2a: Depression
+|-damage|p2a: Depression|87\/100
+|-resisted|p2a: Depression
+|-damage|p2a: Depression|80\/100
+|-hitcount|p2a: Depression|3
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Depression|Earthquake|p1a: Stakataka
+|-supereffective|p1a: Stakataka
+|-crit|p1a: Stakataka
+|-damage|p1a: Stakataka|0 fnt
+|faint|p1a: Stakataka
+|
+|upkeep
+|
+|switch|p1a: Azelf|Azelf|100\/100
+|turn|6
+|
+|move|p1a: Azelf|Explosion|p2a: Depression
+|-crit|p2a: Depression
+|-damage|p2a: Depression|0 fnt
+|faint|p1a: Azelf
+|faint|p2a: Depression
+|
+|upkeep
+|
+|switch|p1a: Slowking|Slowking, M|100\/100
+|switch|p2a: Girafarig-Off|Girafarig, F|100\/100
+|turn|7
+|
+|move|p2a: Girafarig-Off|Nasty Plot|p2a: Girafarig-Off
+|-boost|p2a: Girafarig-Off|spa|2
+|move|p1a: Slowking|Fire Blast|p2a: Girafarig-Off
+|-damage|p2a: Girafarig-Off|82\/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Girafarig-Off|Nasty Plot|p2a: Girafarig-Off
+|-boost|p2a: Girafarig-Off|spa|2
+|move|p1a: Slowking|Ice Beam|p2a: Girafarig-Off
+|-damage|p2a: Girafarig-Off|67\/100
+|
+|-sideend|p2: LVGoldenOmanytes|move: Light Screen
+|upkeep
+|turn|9
+|
+|move|p2a: Girafarig-Off|Nasty Plot|p2a: Girafarig-Off
+|-boost|p2a: Girafarig-Off|spa|2
+|move|p1a: Slowking|Scald|p2a: Girafarig-Off
+|-damage|p2a: Girafarig-Off|27\/100
+|-status|p2a: Girafarig-Off|brn
+|
+|-damage|p2a: Girafarig-Off|21\/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Girafarig-Off|Baton Pass|p2a: Girafarig-Off
+|
+|switch|p2a: Magnets How Do The|Magnezone|90\/100
+|move|p1a: Slowking|Scald|p2a: Magnets How Do The
+|-damage|p2a: Magnets How Do The|53\/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Azumarill|Azumarill, F|100\/100
+|move|p2a: Magnets How Do The|Thunderbolt|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|switch|p1a: Slowking|Slowking, M|100\/100
+|turn|12
+|
+|move|p2a: Magnets How Do The|Thunderbolt|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100\/100
+|-transform|p1a: Ditto|p2a: Magnets How Do The|[from] ability: Imposter
+|turn|13
+|
+|move|p2a: Magnets How Do The|Thunderbolt|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|LVGoldenOmanytes

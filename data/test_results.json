@@ -1,0 +1,99 @@
+{
+    "battle_winner": "LVGoldenOmanytes",
+    "p1": {
+        "name": "LVGoldenOmanytes",
+        "player_number": "p1",
+        "team": {
+            "Chemtrails": {
+                "alive": true,
+                "kills": 0,
+                "name": "Chemtrails",
+                "species": "Steelix",
+                "used": true
+            },
+            "FinlandIsntReal": {
+                "alive": false,
+                "kills": 1,
+                "name": "FinlandIsntReal",
+                "species": "Klefki",
+                "used": true
+            },
+            "Hitler-Did-9\\/11": {
+                "alive": false,
+                "kills": 0,
+                "name": "Hitler-Did-9\\/11",
+                "species": "Heatran",
+                "used": true
+            },
+            "JKF-is-Alive": {
+                "alive": true,
+                "kills": 1,
+                "name": "JKF-is-Alive",
+                "species": "Hippowdon",
+                "used": true
+            },
+            "Magnezone": {
+                "alive": true,
+                "kills": 0,
+                "name": "Magnezone",
+                "species": "Magnezone",
+                "used": false
+            },
+            "NASA-Faked-Mars": {
+                "alive": true,
+                "kills": 4,
+                "name": "NASA-Faked-Mars",
+                "species": "Garchomp",
+                "used": true
+            }
+        }
+    },
+    "p2": {
+        "name": "crimsonflames",
+        "player_number": "p2",
+        "team": {
+            "Florges": {
+                "alive": false,
+                "kills": 0,
+                "name": "Florges",
+                "species": "Florges",
+                "used": false
+            },
+            "Gogoat": {
+                "alive": false,
+                "kills": 2,
+                "name": "Gogoat",
+                "species": "Gogoat",
+                "used": false
+            },
+            "Hoopa": {
+                "alive": true,
+                "kills": 0,
+                "name": "Hoopa",
+                "species": "Hoopa",
+                "used": false
+            },
+            "Infernape": {
+                "alive": false,
+                "kills": 0,
+                "name": "Infernape",
+                "species": "Infernape",
+                "used": false
+            },
+            "Lanturn": {
+                "alive": false,
+                "kills": 0,
+                "name": "Lanturn",
+                "species": "Lanturn",
+                "used": false
+            },
+            "Toxapex": {
+                "alive": false,
+                "kills": 0,
+                "name": "Toxapex",
+                "species": "Toxapex",
+                "used": false
+            }
+        }
+    }
+}

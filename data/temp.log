@@ -1,0 +1,325 @@
+|j|☆LVGoldenOmanytes
+|j|☆crimsonflames
+|player|p1|LVGoldenOmanytes|153
+|player|p2|crimsonflames|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Heatran, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Magnezone|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Klefki, M|item
+|poke|p1|Steelix, F|item
+|poke|p2|Florges, F|item
+|poke|p2|Infernape, M|item
+|poke|p2|Lanturn, F|item
+|poke|p2|Hoopa|item
+|poke|p2|Gogoat, M|item
+|poke|p2|Toxapex, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|☆crimsonflames|do we wait LOL
+|
+|start
+|switch|p1a: FinlandIsntReal|Klefki, M, shiny|100\/100
+|switch|p2a: Toxapex|Toxapex, M|100\/100
+|turn|1
+|
+|move|p1a: FinlandIsntReal|Reflect|p1a: FinlandIsntReal
+|-sidestart|p1: LVGoldenOmanytes|Reflect
+|move|p2a: Toxapex|Toxic Spikes|p1a: FinlandIsntReal
+|-sidestart|p1: LVGoldenOmanytes|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p1a: FinlandIsntReal|Spikes|p2a: Toxapex
+|-sidestart|p2: crimsonflames|Spikes
+|move|p2a: Toxapex|Toxic Spikes|p1a: FinlandIsntReal
+|-sidestart|p1: LVGoldenOmanytes|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Florges|Florges, F|100\/100
+|-damage|p2a: Florges|88\/100|[from] Spikes
+|move|p1a: FinlandIsntReal|Defog|p2a: Florges
+|-unboost|p2a: Florges|evasion|1
+|-sideend|p2: crimsonflames|Spikes|[from] move: Defog|[of] p2a: Florges
+|-sideend|p1: LVGoldenOmanytes|Toxic Spikes|[from] move: Defog|[of] p1a: FinlandIsntReal
+|
+|-heal|p2a: Florges|94\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: FinlandIsntReal|Spikes|p2a: Florges
+|-sidestart|p2: crimsonflames|Spikes
+|move|p2a: Florges|Grassy Terrain|p2a: Florges
+|-fieldstart|move: Grassy Terrain
+|
+|-heal|p2a: Florges|99\/100|[from] item: Leftovers
+|-heal|p2a: Florges|100\/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|switch|p2a: Gogoat|Gogoat, M|100\/100
+|-damage|p2a: Gogoat|88\/100|[from] Spikes
+|move|p1a: FinlandIsntReal|Spikes|p2a: Gogoat
+|-sidestart|p2: crimsonflames|Spikes
+|
+|-heal|p2a: Gogoat|94\/100|[from] item: Leftovers
+|-heal|p2a: Gogoat|100\/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|move|p1a: FinlandIsntReal|Spikes|p2a: Gogoat
+|-sidestart|p2: crimsonflames|Spikes
+|move|p2a: Gogoat|Bulk Up|p2a: Gogoat
+|-boost|p2a: Gogoat|atk|1
+|-boost|p2a: Gogoat|def|1
+|
+|upkeep
+|turn|7
+|
+|move|p1a: FinlandIsntReal|Toxic|p2a: Gogoat
+|-status|p2a: Gogoat|tox
+|move|p2a: Gogoat|Earthquake|p1a: FinlandIsntReal
+|-supereffective|p1a: FinlandIsntReal
+|-damage|p1a: FinlandIsntReal|82\/100
+|
+|-heal|p1a: FinlandIsntReal|88\/100|[from] Grassy Terrain
+|-damage|p2a: Gogoat|94\/100 tox|[from] psn
+|upkeep
+|turn|8
+|c|☆crimsonflames|oh shit
+|c|☆crimsonflames|LOL
+|
+|switch|p1a: Hitler-Did-9\/11|Heatran, M|100\/100
+|-item|p1a: Hitler-Did-9\/11|Air Balloon
+|move|p2a: Gogoat|Horn Leech|p1a: Hitler-Did-9\/11
+|-resisted|p1a: Hitler-Did-9\/11
+|-damage|p1a: Hitler-Did-9\/11|95\/100
+|-heal|p2a: Gogoat|97\/100 tox|[from] drain|[of] p1a: Hitler-Did-9\/11
+|-enditem|p1a: Hitler-Did-9\/11|Air Balloon
+|
+|-heal|p1a: Hitler-Did-9\/11|100\/100|[from] Grassy Terrain
+|-heal|p2a: Gogoat|100\/100 tox|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Gogoat|88\/100 tox|[from] psn
+|-sideend|p1: LVGoldenOmanytes|Reflect
+|upkeep
+|turn|9
+|
+|move|p1a: Hitler-Did-9\/11|Stealth Rock|p2a: Gogoat
+|-sidestart|p2: crimsonflames|move: Stealth Rock
+|move|p2a: Gogoat|Earthquake|p1a: Hitler-Did-9\/11
+|-supereffective|p1a: Hitler-Did-9\/11
+|-damage|p1a: Hitler-Did-9\/11|0 fnt
+|faint|p1a: Hitler-Did-9\/11
+|
+|-heal|p2a: Gogoat|94\/100 tox|[from] item: Leftovers
+|-damage|p2a: Gogoat|76\/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: FinlandIsntReal|Klefki, M, shiny|88\/100
+|turn|10
+|
+|move|p1a: FinlandIsntReal|Reflect|p1a: FinlandIsntReal
+|-sidestart|p1: LVGoldenOmanytes|Reflect
+|move|p2a: Gogoat|Earthquake|p1a: FinlandIsntReal
+|-supereffective|p1a: FinlandIsntReal
+|-damage|p1a: FinlandIsntReal|47\/100
+|
+|-heal|p2a: Gogoat|82\/100 tox|[from] item: Leftovers
+|-damage|p2a: Gogoat|57\/100 tox|[from] psn
+|upkeep
+|turn|11
+|c|☆crimsonflames|i swear if u have recover
+|c|☆crimsonflames|nah
+|
+|switch|p1a: JKF-is-Alive|Hippowdon, M|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: JKF-is-Alive
+|move|p2a: Gogoat|Earthquake|p1a: JKF-is-Alive
+|-damage|p1a: JKF-is-Alive|89\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gogoat|51\/100 tox|[from] Sandstorm
+|-heal|p2a: Gogoat|57\/100 tox|[from] item: Leftovers
+|-heal|p1a: JKF-is-Alive|95\/100|[from] item: Leftovers
+|-damage|p2a: Gogoat|26\/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Gogoat|Horn Leech|p1a: JKF-is-Alive
+|-supereffective|p1a: JKF-is-Alive
+|-damage|p1a: JKF-is-Alive|65\/100
+|-heal|p2a: Gogoat|42\/100 tox|[from] drain|[of] p1a: JKF-is-Alive
+|move|p1a: JKF-is-Alive|Whirlwind|p2a: Gogoat
+|drag|p2a: Florges|Florges, F|100\/100
+|-damage|p2a: Florges|75\/100|[from] Spikes
+|-damage|p2a: Florges|63\/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Florges|57\/100|[from] Sandstorm
+|-heal|p2a: Florges|63\/100|[from] item: Leftovers
+|-heal|p1a: JKF-is-Alive|72\/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Florges|Calm Mind|p2a: Florges
+|-boost|p2a: Florges|spa|1
+|-boost|p2a: Florges|spd|1
+|move|p1a: JKF-is-Alive|Slack Off|p1a: JKF-is-Alive
+|-heal|p1a: JKF-is-Alive|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Florges|57\/100|[from] Sandstorm
+|-heal|p2a: Florges|63\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Florges|Wish|p2a: Florges
+|move|p1a: JKF-is-Alive|Whirlwind|p2a: Florges
+|drag|p2a: Hoopa|Hoopa|100\/100
+|-damage|p2a: Hoopa|76\/100|[from] Spikes
+|-damage|p2a: Hoopa|63\/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hoopa|57\/100|[from] Sandstorm
+|upkeep
+|turn|15
+|j| calder27
+|
+|switch|p1a: Chemtrails|Steelix, F, shiny|100\/100
+|move|p2a: Hoopa|Dark Pulse|p1a: Chemtrails
+|-damage|p1a: Chemtrails|62\/100
+|-damage|p2a: Hoopa|47\/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2a: Hoopa|100\/100|[from] move: Wish|[wisher] Florges
+|upkeep
+|turn|16
+|
+|detailschange|p1a: Chemtrails|Steelix-Mega, F, shiny
+|-mega|p1a: Chemtrails|Steelix|Steelixite
+|move|p2a: Hoopa|Shadow Ball|p1a: Chemtrails
+|-damage|p1a: Chemtrails|17\/100
+|-damage|p2a: Hoopa|91\/100|[from] item: Life Orb
+|move|p1a: Chemtrails|Heavy Slam|p2a: Hoopa
+|-damage|p2a: Hoopa|1\/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: JKF-is-Alive|Hippowdon, M|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: JKF-is-Alive
+|move|p2a: Hoopa|Shadow Ball|p1a: JKF-is-Alive
+|-crit|p1a: JKF-is-Alive
+|-damage|p1a: JKF-is-Alive|31\/100
+|-unboost|p1a: JKF-is-Alive|spd|1
+|-damage|p2a: Hoopa|0 fnt|[from] item: Life Orb
+|faint|p2a: Hoopa
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: JKF-is-Alive|38\/100|[from] item: Leftovers
+|-sideend|p1: LVGoldenOmanytes|Reflect
+|upkeep
+|
+|switch|p2a: Gogoat|Gogoat, M|42\/100 tox
+|-damage|p2a: Gogoat|30\/100 tox|[from] Stealth Rock
+|-damage|p2a: Gogoat|5\/100 tox|[from] Spikes
+|turn|18
+|
+|switch|p1a: FinlandIsntReal|Klefki, M, shiny|47\/100
+|move|p2a: Gogoat|Horn Leech|p1a: FinlandIsntReal
+|-resisted|p1a: FinlandIsntReal
+|-damage|p1a: FinlandIsntReal|33\/100
+|-heal|p2a: Gogoat|11\/100 tox|[from] drain|[of] p1a: FinlandIsntReal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gogoat|5\/100 tox|[from] Sandstorm
+|-heal|p2a: Gogoat|11\/100 tox|[from] item: Leftovers
+|-damage|p2a: Gogoat|5\/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: FinlandIsntReal|Reflect|p1a: FinlandIsntReal
+|-sidestart|p1: LVGoldenOmanytes|Reflect
+|move|p2a: Gogoat|Earthquake|p1a: FinlandIsntReal
+|-supereffective|p1a: FinlandIsntReal
+|-crit|p1a: FinlandIsntReal
+|-damage|p1a: FinlandIsntReal|0 fnt
+|faint|p1a: FinlandIsntReal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gogoat|0 fnt|[from] Sandstorm
+|upkeep
+|faint|p2a: Gogoat
+|c|☆LVGoldenOmanytes|them crits tho
+|
+|switch|p1a: NASA-Faked-Mars|Garchomp, M, shiny|100\/100
+|switch|p2a: Toxapex|Toxapex, M|100\/100
+|-damage|p2a: Toxapex|75\/100|[from] Spikes
+|-damage|p2a: Toxapex|63\/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: NASA-Faked-Mars|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|c|☆crimsonflames|damn
+|
+|switch|p2a: Florges|Florges, F|63\/100
+|-damage|p2a: Florges|50\/100|[from] Stealth Rock
+|-damage|p2a: Florges|25\/100|[from] Spikes
+|turn|21
+|
+|move|p1a: NASA-Faked-Mars|Earthquake|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|faint|p2a: Florges
+|
+|-weather|none
+|upkeep
+|c|☆LVGoldenOmanytes|ggwp
+|c|☆crimsonflames|fuck
+|c|☆crimsonflames|gg
+|
+|switch|p2a: Lanturn|Lanturn, F|100\/100
+|-damage|p2a: Lanturn|88\/100|[from] Stealth Rock
+|-damage|p2a: Lanturn|63\/100|[from] Spikes
+|turn|22
+|
+|move|p1a: NASA-Faked-Mars|Earthquake|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|faint|p2a: Lanturn
+|
+|upkeep
+|
+|switch|p2a: Infernape|Infernape, M|100\/100
+|-damage|p2a: Infernape|76\/100|[from] Spikes
+|-damage|p2a: Infernape|63\/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Infernape|Mach Punch|p1a: NASA-Faked-Mars
+|-damage|p1a: NASA-Faked-Mars|91\/100
+|-damage|p2a: Infernape|51\/100|[from] ability: Rough Skin|[of] p1a: NASA-Faked-Mars
+|move|p1a: NASA-Faked-Mars|Earthquake|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|win|LVGoldenOmanytes
+|c|☆crimsonflames|LMAO
+|c|☆LVGoldenOmanytes|klefki mvp
+|c|☆crimsonflames|ya
+|c|☆crimsonflames|real shit
+|l|☆crimsonflames
