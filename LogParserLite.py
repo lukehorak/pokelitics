@@ -37,7 +37,7 @@ def switch(event):
     result = {
         "player" : event[1].split(":")[0][:-1],
         "mon_name" : event[1].split(":")[1].strip(),
-        "mon_species" : event[2].split(",")[0].split('-')[0]
+        "mon_species" : event[2].split(",")[0]
     }
     return result
 
@@ -84,10 +84,6 @@ def main(fp):
             battle.results[event[1]] = Trainer(event[2], event[1])
         elif event[0] == 'poke':
             species = event[2].split(',')[0]
-            if '-' in species:
-                if species.lower() is not 'ho-oh' and species.lower() is not 'porygon-z' and 'rotom' not in species:
-                    species = species.split('-')[0]
-                    print(species)
             for trainer in battle.results:
                 if battle.results[trainer].player_number == event[1]:
                     battle.results[trainer].addMon(species)
@@ -108,8 +104,6 @@ def main(fp):
         event = parseLine(battle.content[line])
         if event[0] == 'faint':
             player = event[1].split(":")[0][:-1]
-            if active_mons[player] == 'Silvally':
-                print(battle.results[player].team)
             battle.results[player].team[active_mons[player]].alive = False
             for other in active_mons:
                 if other != player:
