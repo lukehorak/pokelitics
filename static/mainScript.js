@@ -68,6 +68,7 @@ window.onload = function() {
 
     var score = document.createElement("H1");
     var scoreText = document.createTextNode("Score -->    " + getScore(jobj.p1) + " - " + getScore(jobj.p2));
+    score.className += "centerText";
     score.appendChild(scoreText);
     document.body.appendChild(score);
 
