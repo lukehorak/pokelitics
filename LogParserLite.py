@@ -85,7 +85,7 @@ def main(fp):
         elif event[0] == 'poke':
             species = event[2].split(',')[0]
             if '-' in species:
-                if species.lower() is not 'ho-oh' and species.lower() is not 'porygon-z':
+                if species.lower() is not 'ho-oh' and species.lower() is not 'porygon-z' and 'rotom' not in species:
                     species = species.split('-')[0]
                     print(species)
             for trainer in battle.results:
