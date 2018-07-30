@@ -2,6 +2,9 @@
 h1, h3 {
     color: #CBCBCB;
     font-family: sans-serif;
+}
+
+.centerText{
     text-align: center;
 }
 

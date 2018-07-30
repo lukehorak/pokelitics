@@ -38,6 +38,7 @@ function addToPage(pLite) {
     var headerTag = document.createElement("H3");
     var headerText = document.createTextNode(pLite.name + " Summary:");
     headerTag.appendChild(headerText);
+    headertag.className += "centerText";
     var summaryTag = document.createElement("PRE");
     //summaryTag.setAttribute('data-src', "{{ url_for('static',filename='prism.js') }}");
     //summaryTag.className += "language-json";
