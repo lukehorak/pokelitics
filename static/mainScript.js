@@ -61,6 +61,7 @@ window.onload = function() {
     var jobj = JSON.parse(jstring);
     // TODO Make table out of JS object with certain attributes as columns
     var head = document.createElement("H1");
+    head.className += "centerText";
     var headText = document.createTextNode("WINNER: " + jobj.battle_winner);
     head.appendChild(headText);
     document.body.appendChild(head);
