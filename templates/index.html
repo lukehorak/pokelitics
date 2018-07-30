@@ -4,7 +4,7 @@
     <head>
         <link rel="stylesheet" href="{{ url_for('static',filename='styles/main_style.css') }}">
     </head>
-    <body style="background:#2D2D2D; text-align:center;">
+    <body style="background:#2D2D2D; text-align:center; color:#CBCBCB;">
         <h1>Upload your Battle log below:</h1><br /><br />
         <form action = "http://pokelitics.herokuapp.com/uploader" method = "POST" enctype = "multipart/form-data">
             <input type="file" name="file"/>
