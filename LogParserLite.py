@@ -33,6 +33,12 @@ def parseLine(line):
     parsed.pop(0)
     return parsed
 
+def simpleSpecies(speciesName):
+    # TODO - eventually identify megas (maybe with is_mega property on pokemon object?)
+    if speciesName.lower() is not 'ho-oh' and speciesName.lower() is not 'porygon-z' and 'rotom' not in speciesName:
+        return speciesName.split('-')[0]
+    return speciesName
+
 def switch(event):
     result = {
         "player" : event[1].split(":")[0][:-1],
@@ -83,10 +89,7 @@ def main(fp):
         if event[0] == 'player':
             battle.results[event[1]] = Trainer(event[2], event[1])
         elif event[0] == 'poke':
-            species = event[2].split(',')[0]
-            if '-' in species:
-                if species.lower() is not 'ho-oh' and species.lower() is not 'porygon-z' and 'rotom' not in species:
-                    species = species.split('-')[0]
+            species = simpleSpecies(event[2].split(',')[0])
             for trainer in battle.results:
                 if battle.results[trainer].player_number == event[1]:
                     battle.results[trainer].addMon(species)
@@ -107,16 +110,21 @@ def main(fp):
         event = parseLine(battle.content[line])
         if event[0] == 'faint':
             player = event[1].split(":")[0][:-1]
+            # potentially use this later to refactor the ugly crap below
+            mon_name = event[1].split(":")[1].strip()
+
             battle.results[player].team[active_mons[player]].alive = False
             for other in active_mons:
                 if other != player:
                     battle.results[other].team[active_mons[other]].kills += 1
                     # Log kill to console (with species in parentheses)
                     print (active_mons[other], "(" + battle.results[other].team[active_mons[other]].species + ")", "killed", active_mons[player], "(" + battle.results[player].team[active_mons[player]].species + ")")
+
         elif event[0] == 'switch':
             player = event[1].split(":")[0][:-1]
             active_mons[player] = switch_in(event, battle.results)
-            print(active_mons)
+            print("active mons--> ", active_mons)
+
         elif event[0] == 'win':
             print (event[1], "won the battle!")
             battle.winner = event[1]
