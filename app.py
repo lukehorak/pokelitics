@@ -37,6 +37,7 @@ def list_files():
 			if os.path.isfile(path):
 				files.append(filename)
 				return test_json.read()
+	# POST
 	elif request.method == 'POST':
 		f = request.files['test']
 		fpath = 'data/(1)' + secure_filename(f.filename)
